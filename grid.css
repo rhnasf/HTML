@@ -1,0 +1,40 @@
+.grid-container{
+    display: grid;
+    grid-template-areas: "header header header header"
+    "aside main main main"
+    "footer footer footer footer";
+    
+}
+
+header
+{
+    grid-area: header;
+    height: 300px;
+    background-color: rgb(32, 95, 95);
+    text-align: center;
+}
+
+.logo{
+    background-color: rgb(236, 7, 7);
+}
+
+aside{
+    grid-area: aside;
+    height: 600px;
+    background-color: blue;
+    text-align: center;
+}
+
+main{
+    grid-area: main;
+    height: 600px;
+    background-color: rgb(121, 121, 157);
+    text-align: center;
+}
+
+footer{
+    grid-area: footer;
+    height: 300px;
+    background-color: rgb(154, 170, 146);
+    text-align: center;
+}

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM</title>
+</head>
+<body>
+    <form>
+        <label for="fname">First Name: </label>
+        <input type="text" name="fname" id="fname" required> (max 30 character a-z & A-Z)<br><br>
+        <label for="lname">Last Name: </label>
+        <input type="text" name="lname" id="lname" required> (max 30 character a-z & A-Z)<br><br>
+        <label for="DOB">Date Of Birth: </label>
+        <input type="date" name="DOB" id="DOB" required><br><br>
+        <label for="email">Email ID: </label>
+        <input type="email" id="email" name="email" required><br><br>
+        <label for="Telephone">Telephone: </label> (10 digit Number)
+        <input type="tel" id="Telephone" name="Telephone" required><br><br>
+        <label>Gender:</label>  
+        <input type="radio" id="male" name="gender" value="male" required>
+        <label for="male">Male</label>  
+        <input type="radio" id="female" name="gender" value="female" required>
+        <label for="female">Female</label><br><br>
+        <label for="address">Address:</label><br>
+        <textarea id="address" name="address" rows="4" cols="50" required></textarea><br><br>
+        <label for="City">City: </label>
+        <input type="text" name="City" id="City" required> (max 30 character a-z & A-Z)<br><br>
+        <label for="PIN CODE">PIN CODE: </label>
+        <input type="text" name="PIN CODE" id="PIN CODE" required> (6 Digit Number)<br><br>
+        <label for="State">State: </label>
+        <input type="text" name="State" id="State" required> (max 30 character a-z & A-Z)<br><br>
+        <label for="Country">Country: </label>
+        <input type="text" name="Country" id="Country" required><br><br>
+        <label>Hobbies:</label><br>
+        <input type="checkbox" id="reading" name="hobbies" value="Reading">
+        <label for="reading">Reading</label><br>
+        <input type="checkbox" id="sports" name="hobbies" value="Sports">
+        <label for="sports">Sports</label><br>
+        <input type="checkbox" id="music" name="hobbies" value="Music">
+        <label for="music">Music</label><br>
+        <label for="other">Other</label>
+        <input type="checkbox" id="other" name="hobbies" value="Other">
+        <input type="text" id="other" name="otherHobby" placeholder="Please specify"><br><br>
+        <label for="qualification">QUALIFICATION:</label>
+        <select id="qualification" name="qualification">
+            <option value="classX">Class X</option>
+            <option value="classXII">Class XII</option>
+            <option value="graduation">Graduation</option>
+            <option value="masters">Masters</option>
+        </select><br><br>
+
+        <fieldset>
+            <legend>Courses Applied For:</legend>
+            <label>
+                <input type="radio" name="course" value="course1"> Course 1
+            </label><br>
+            <label>
+                <input type="radio" name="course" value="course2"> Course 2
+            </label><br>
+            <label>
+                <input type="radio" name="course" value="course3"> Course 3
+            </label><br>
+            <label>
+                <input type="radio" name="course" value="course4"> Course 4
+            </label><br>
+        </fieldset><br>
+
+        <label for="submit">Submit: </label>
+        <input type="submit" id="submit" name="submit">
+    </form>
+</body>
+</html>
